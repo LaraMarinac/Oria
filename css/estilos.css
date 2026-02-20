@@ -178,4 +178,34 @@ font-weight: 500;
     height: 100%;
     object-fit: cover;
   }
+  /* ====== RESPONSIVE PARA CELULARES ====== */
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 70px;
+  }
+
+  header h2 {
+    font-size: 16px;
+  }
+
+  .productos {
+    grid-template-columns: 1fr;
+  }
+
+  .producto img {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .gamuza2 h3 {
+    font-size: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+}
   
